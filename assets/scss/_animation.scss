@@ -1,0 +1,43 @@
+
+.pox{
+	position: absolute;
+	top: 0%;
+	right: 10%;
+    width: 100%;
+	height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-bottom: 100px !important;
+}
+
+.pox{
+	.text-p{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		border-radius: 1000px;
+		background-color: black;
+		top: 30%;
+		left: 34%;
+		h2{
+			font-size: 20px;
+			color: aliceblue;
+			font-weight: bold;
+		}
+	}	
+}
+
+.pox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+   max-width: 550px;
+   max-height: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,115 @@
+/* =Variables
+------------------------------------- */
+/* =Functions
+------------------------------------- */
+/* =Placeholder
+------------------------------------- */
+/* =Styles
+------------------------------------- */
+body {
+  background: #2b5876;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.o-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.c-tilt {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  -webkit-transform: perspective(700px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+          transform: perspective(700px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  width: 100vw;
+  will-change: transform;
+}
+
+.c-ryanyu {
+  background-color: transparent;
+  display: block;
+  font-family: "Kalam", cursive;
+  height: 26.25rem;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  -webkit-transform: translateZ(20px);
+          transform: translateZ(20px);
+  width: 26.25rem;
+}
+.c-ryanyu img {
+  background-color: white;
+  border: 0.625rem solid #fa9600;
+  border-radius: 50%;
+  height: 25rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 25rem;
+}
+
+.c-ryanyu-name-shadow {
+  color: white;
+  font-size: 150px;
+  position: absolute;
+  top: 292px;
+  -webkit-transform: translateZ(70px);
+          transform: translateZ(70px);
+}
+
+.c-ryanyu-name {
+  color: #404040;
+  font-size: 150px;
+  position: absolute;
+  top: 290px;
+  -webkit-transform: translateZ(80px);
+          transform: translateZ(80px);
+}
+
+.c-fe30 {
+  -webkit-animation: fe30-anime 1s ease-in-out 4s forwards;
+          animation: fe30-anime 1s ease-in-out 4s forwards;
+  color: #fa9600;
+  font-size: 1.5rem;
+  margin-top: 3.125rem;
+  opacity: 0;
+  text-align: center;
+  -webkit-transform: translateZ(30px);
+          transform: translateZ(30px);
+}
+.c-fe30 a {
+  color: white;
+}
+.c-fe30 a:hover {
+  text-decoration: none;
+}
+
+@-webkit-keyframes fe30-anime {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fe30-anime {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

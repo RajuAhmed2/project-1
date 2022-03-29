@@ -1,0 +1,25 @@
+.foorer-1{
+    .footer-link{
+        h4{
+            margin-top: 50px;
+            font-size: 26px !important;
+        }
+        ul{
+            li{
+                padding-top: 7px;
+                a{
+                    @include a-tag;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+.copy-right{
+    p {
+        color: #000000;
+        font-size: 15px;
+        font-weight: 400 !important;
+        padding-bottom: 5px;
+    }
+}

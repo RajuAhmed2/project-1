@@ -1,0 +1,370 @@
+@media screen and (max-width: 2560px){
+    //@at-root
+    .pox .text-p {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 1000px;
+        background-color: black;
+        top: 26%;
+        left: 20%;
+    }
+}
+@media screen and (max-width: 1440px) {
+    // head
+    #ov-header #financial .fast-container {
+        padding-right: 0;
+        max-width: 1440px;
+        padding-left: 25px;
+    }
+    #ov-header #group .b-link::before {
+        z-index: -1;
+        top: 0;
+        left: 6%;
+        height: 100%;
+        content: '';
+        position: absolute;
+        right: calc(-100vw / 2 + 100% / 2);
+        background-color: #232426;
+    }
+}
+@media screen and (max-width: 1024px) {
+    //head
+    #ov-header #financial .text-fi h1 {
+        font-style: italic;
+        font-family: $no;
+        font-size: 80px;
+        line-height: 86px;
+        margin-bottom: 7px;
+        font-weight: normal;
+    }
+    .pox img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 450px;
+        height: auto;
+        object-fit: cover;
+    }
+    .pox .text-p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border-radius: 1000px;
+        background-color: black;
+        top: 20% !important;
+        left: 35% !important;
+      }
+      #ov-header #financial .text-date h4 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+    }
+    #ov-header #last .flex-3 .img {
+         border: none;
+    }
+    .scroll .opstion-nav-head select {
+        min-width: 409px;
+        padding: 0px 10px;
+        height: 60px;
+        outline: 0;
+        border: none;
+        font-size: 21px;
+    }
+    //nav head
+    .nav-header .pointer .opstion-nav-head {
+        position: absolute;
+        top: 30%;
+        right: 26%;
+    }
+    .selector {
+        display: none;
+        background-color: white !important;
+        position: absolute;
+        top: 95%;
+        left: 22%;
+        right: 22%;
+        padding: 20px;
+        border: 2px solid #050505;
+        border-top: none;
+        z-index: 100;
+    }
+    //image
+    img {
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #ov-header #last .flex-3 .img {
+         border: none;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 145%;
+    }
+    //head
+    .scroll .opstion-nav-head select {
+        min-width: 409px;
+        padding: 0px 10px;
+        height: 60px;
+        outline: 0;
+        border: none;
+        font-size: 16px;
+    }
+    .nav-header .pointer .opstion-nav-head {
+        position: absolute;
+        top: 30%;
+        right: 23%;
+    }
+    .nav-header .pointer .scroll .logo-nav-head {
+        border-right: 2px solid #080808;
+        width: 173px;
+        height: 60px;
+    }
+    .nav-header .pointer .scroll .text-nav-head {
+        border-left: 2px solid #080808;
+        width: 173px;
+        height: 60px;
+        background-color: #000000;
+        justify-content: center;
+        align-items: center;
+    }
+    .selector {
+        display: none;
+        background-color: white !important;
+        position: absolute;
+        top: 95%;
+        left: 21%;
+        right: 21%;
+        padding: 20px;
+        border: 2px solid #050505;
+        border-top: none;
+        z-index: 100;
+    }
+    .nav-header .pointer .scroll .logo-nav-head img {
+        margin: 20px;
+        width: 80%;
+        height: auto;
+    }
+    .text-image-007 img {
+        max-width: 90%;
+    }
+    .img img{
+        width: 100%;
+        height: auto;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    //table
+    .table thead th {
+        background-color: #000;
+        font-size: 13px !important;
+        font-weight: normal;
+    }
+    #section-6 .Distribution .table td, #section-6 .Distribution .table th {
+        font-size: 13px !important;
+        padding: 0.75rem !important;
+    }
+    //form
+    #section-9 .con .black .text-f h1 {
+        font-size: 55px;
+    }
+}
+@media screen and (max-width: 425px) {
+
+
+    //head
+    #ov-header .main-head .head .logo {
+        width: 200.66px !important;
+    }
+    #ov-header .main-head .grab {
+        width: 200px !important;
+        height: 50px !important;
+        h4 {
+            margin-top: 15px !important;
+            font-size: 16px;
+        }
+    }
+    #ov-header #thank-you .image-thanks {
+        display: none !important;
+    }
+    #ov-header #last .flex-3 {
+        margin-top: 20px !important;
+    }
+    #fixd {
+        margin-bottom: 50px !important;
+    }
+    // head
+    #ov-header #financial{
+         .text-fi {
+            padding-left: 10px;
+        }
+        .fast-container {
+            padding-right: 0;
+            max-width: 1440px;
+            padding-left: 0px;
+        }
+    }
+    #ov-header #financial .text-fi h1 {
+        font-style: italic;
+        font-family: $no;
+        font-size: 50px;
+        line-height: 86px;
+        margin-bottom: 7px;
+        font-weight: 700;
+    }
+    #ov-header #thank-you .text-thanks h1 {
+        font-size: 50px;
+        font-style: italic;
+        font-family: $no;
+        padding-right: 100px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+    #ov-header #last .head-last h1 {
+        font-size: 50px;
+        font-style: italic;
+        font-family: $no;
+        padding-right: 100px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+    .nav-header .pointer .scroll .text-nav-head {
+        display: none;
+    }
+    .nav-header .pointer .opstion-nav-head {
+        position: absolute;
+        top: 30%;
+        right: 10%;
+    }
+    .selector {
+        display: none;
+        background-color: white !important;
+        position: absolute;
+        top: 95%;
+        left: 0%;
+        right: 0%;
+        padding: 20px;
+        border: 2px solid #050505;
+        border-top: none;
+        z-index: 100;
+    }
+    .image-3{
+        margin-left: 10px;
+        max-width: 90%;
+    }
+    #ov-header #financial .text-date {
+        padding-left: 10px;
+        h4 {
+            font-size: 18px;
+            font-weight: 400;
+            color: #000;
+        }
+    }
+    #ov-header #eye .text-head-eye h1 {
+        font-size: 50px;
+        font-style: italic;
+        font-family: $no;
+        padding-right: 100px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+    // help
+    .ml-50 {
+        margin-left: 20px;
+    }
+    .mt-70 {
+        margin-top: 10px; 
+    }
+    .mr-50 {
+        margin-right: 20px;
+    }
+    //animation
+    #ov-header #eye .animation {
+        overflow: hidden;
+         display: block;
+    }
+    #ov-header #eye .animation .cr-eye {
+        padding: 20px;
+      margin: 0 auto;
+    }
+    .eye-animation{
+        padding: 20px;
+    }
+    #ov-header #thank-you {
+        margin: 20px; 
+    }
+    #ov-header #supar {
+         margin: 20px; 
+    }
+    #ov-header #present {
+        margin: 20px; 
+    }
+    #ov-header #last {
+        position: relative;
+        margin: 20px; 
+    }
+    .scroll {
+        display: block;
+        border: none;
+    }
+    .scroll .opstion-nav-head select {
+        min-width: 409px;
+        padding: 10px;
+        height: 60px;
+        border: 1px solid $c-6;
+        font-size: 12px;
+        margin: 20px;
+    }
+    //section 
+    #fixd {
+        position: relative;
+        height: none;
+        top: 0;
+        padding-top: 0px;
+        margin-bottom:100px;
+    }
+    .scroll .logo-nav-head {
+        border-right: none;
+    }
+    .scroll .text-nav-head {
+        margin: 20px;
+        border-left:none;
+        width: 210px;
+        height: 60px;
+        background-color: #000000;
+    }
+    #section-8 .black .number {
+        display: block;
+    }
+    #section-3 .black {
+        display: block;
+    }
+    #section-3 .black .number {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #section-3 .black .number .chart p::after {
+        margin-top: 10px;
+        display: block;
+        content: '';
+        clear: both;
+        width: 90%;
+        height: 3px;
+        background: #040404;
+    }
+    #section-9 .con .black .contact .submit input {
+        font-size: 16px !important;
+    }
+}

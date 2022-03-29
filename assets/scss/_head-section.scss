@@ -1,0 +1,330 @@
+/*====HEAD SECTION====*/
+#ov-header{
+    position: relative;
+    z-index: 50;
+    overflow: hidden;
+    //financial 
+    #financial{
+        .fast-container{
+            margin: 0 auto;
+            padding-right: 0;
+            max-width: 1920px;
+            padding-left: 119px;
+        }
+        overflow: hidden;
+        margin-top:100px;
+        .text-2021{
+            h2{
+                font-style: italic;
+                margin-left: 45px;
+                font-family: $ov;
+                font-size: 96px;
+                line-height: .8;
+                margin-bottom: 3px;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: #232426;
+            }
+        }
+        .text-fi{
+            padding-left: 45px;
+            h1{
+                font-style: italic;
+               font-family: $no;
+               font-size: 86px;
+               line-height: 86px;
+               margin-bottom: 7px;
+               font-weight: normal;
+            }
+        }
+        .text-date{
+            padding-left: 45px;
+            h4{
+                font-size: 24px;
+                font-weight: 400;
+                color: #000;
+            }
+        }
+        .Parallax{
+            border: 3px solid $c-15;
+            border-radius: 1000px;
+            padding: 30px;
+            position: relative;
+            display: inline-block;
+            .h2-po{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 400px;
+                width: 400px;
+                background-color: #232426;
+                border-radius: 1000px;
+                position: absolute;
+                top: 20%;
+                left: 20%;
+            }
+        }
+    }
+    //eye 
+    #eye{
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        .text-head-eye{
+            h5{
+                font-family: $no;
+                font-weight: 500;
+                color: #000;
+                letter-spacing: 13px;
+            }
+            h1{
+                font-size: 86px;
+                font-style: italic;
+                font-family: $no;
+                padding-right: 100px;
+                font-weight: 500;
+                letter-spacing: 3px;
+            }
+        }
+        .text-eye{
+            h5{
+                font-family: $no;
+                margin-top: 20px;
+                font-weight: 500;
+                color: #000;
+                letter-spacing: 13px;
+            }
+            h4{
+                font-family: $no;
+                margin-top: 20px;
+                padding-right: 100px;
+                font-weight: 500;
+                letter-spacing: 13px;
+                &::after{
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    display: block;
+                    content: '';
+                    clear: both;
+                    width: 100%;
+                    height: 5px;
+                    background: $c-15;
+                }
+            }
+        }
+        .animation{
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+    }
+    .image-4{
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        z-index: -2;
+    }
+    //group
+    #group{
+        overflow: hidden;
+        position: relative;
+        h5{
+            color: #fff;
+            margin-top: 20px;
+            padding-right: 100px;
+            font-weight: 500;
+            letter-spacing: 13px;
+            &::after{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                display: block;
+                content: '';
+                clear: both;
+                width: 100%;
+                height: 14px;
+                background: #fff;
+            }
+        }
+        .pate-1,.pate-2,.pate-3,.pate-4,.pate-5,.pate-6{
+            height: 150px;
+            width: 100%;
+            p{
+                color: #fff;
+                font-weight: 500;
+                letter-spacing: 10px;
+            }
+            h4{
+                cursor: pointer;
+                color: #fff; 
+                transition: 0.4s ease;
+                &:hover{
+                    color: $c-10;
+                }
+            }
+        }
+       .b-link{
+        &::before {
+            z-index: -1;
+            top: 0;
+            left: 27%;
+            height: 100%;
+            content: '';
+            position: absolute;
+            right: calc(-100vw / 2 + 100% / 2);
+            background-color: #232426;
+        }
+       }
+    }
+    //thank uou
+    #thank-you{
+        // position: relative;
+        margin: 100px;
+        .text-thanks{
+            h5{
+                font-weight: 500;
+                letter-spacing: 13px;
+                font-family: $no;
+            }
+            h1{
+                font-size: 86px;
+                font-style: italic;
+                font-family: $no;
+                padding-right: 100px;
+                font-weight: 500;
+                letter-spacing: 3px;
+            }
+        }
+        .image-thanks{
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            top: -40px;
+            right: -475px;
+        }
+    }
+    //super
+    #supar{
+        margin: 100px;
+        .group-1,.group-2{
+            h5{
+                color:$c-15;
+                margin-top: 20px;
+                padding-right: 100px;
+                font-weight: 500;
+                letter-spacing: 4px;
+                &::after{
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    display: block;
+                    content: '';
+                    clear: both;
+                    width: 122%;
+                    height: 10px;
+                    background: $c-15;
+                }
+            }
+        }
+    }
+    //present
+    #present{
+        margin: 100px;
+        h5{
+            color:$c-15;
+            margin-top: 20px;
+            padding-right: 100px;
+            font-weight: 500;
+            letter-spacing: 13px;
+            &::after{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                display: block;
+                content: '';
+                clear: both;
+                width: 110%;
+                height: 10px;
+                background: $c-15;
+            }
+        }
+        .link-1,.link-2,.link-3,.link-4{
+            ul{
+                li{
+                    padding-top: 7px;
+                    a{
+                        @include a-tag;
+                    }
+                }
+            }
+        }
+    }
+    //lest
+    #last{
+        position: relative;
+        margin: 100px;
+        .head-last{
+            h4{
+                font-weight: 500;
+                letter-spacing: 13px;
+                font-family: $no;
+            }
+            h1{
+                font-size: 86px;
+                font-style: italic;
+                font-family: $no;
+                padding-right: 100px;
+                font-weight: 500;
+                letter-spacing: 3px;
+            }
+        }
+        .flex-3{
+            display: flex;
+            flex-wrap: nowrap;
+            .img{
+                border: 1px solid #000;
+                padding: 5px;
+                border-radius:100000px;
+            }
+            .text-f{
+                margin-top: 20px;
+                padding-left: 20px;
+                h5{
+                    font-weight: 500;
+                    letter-spacing: 4px;
+                }
+                h4{
+                    font-weight: 500;
+                    letter-spacing: 4px;
+                }
+                a{
+                    text-decoration: underline;
+                    color: #000;
+                    font-size: 14px;
+                }
+            }
+        }
+        p{
+            margin-top: 50px;
+       }
+       .image-3{
+        z-index: -1;
+        top: 0;
+        left: -1300px;
+        position: absolute;
+        pointer-events: none;
+    }
+    .image-1{
+        z-index: -1;
+        top: 100px;
+        left: -1500px;
+        position: absolute;
+    }
+    .image-2{
+        top: -915px;
+        right: -1400px;
+        position: absolute;
+    }
+    }
+
+}   
